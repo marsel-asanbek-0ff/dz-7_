@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  #filterInput,
+  #regionSelect {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+  
+  #countryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .country-card {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .flag {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    margin: 10px 0;
+  }
+  
+  .pagination {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    margin-top: 100px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
